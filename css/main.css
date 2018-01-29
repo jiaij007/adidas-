@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header_top {
+	width: 1520px;
+	height: 30px;
+	background: black;
+	color: #fff;
+}
+
+.header_right{
+	float: right;
+	margin-right: 15px
+}
+
+.header_right ul li {
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+    padding: 0 20px;
+  
+}
+
+.nav {
+	width: 1520px;
+	height:50px;
+	
+	background: black;
+	color: #fff;
+}	
+
+.menu ul{
+	width: 530px;
+
+}
+.menu ul li{
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	padding: 0 15px;
+	font-weight: bold;
+}
+
+.menu ul li:hover{
+	cursor: pointer;
+}
+
+.down{
+	width: 1520px;
+	height: 447px;
+	background: #fff;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	padding: 15px;
+	color: black;
+	display: none;
+	z-index: 1;
+}
+
+.search {
+	float: right;
+	line-height: 50px;
+	padding: 0 20px;
+}
+
+.main_pic{
+	width: 1520px;
+	height: 498px;
+	overflow: hidden;
+	
+}
+.pic{
+	position: relative;
+}
+.pic img{
+	width: 1520px;
+	position: absolute;
+}
+.pic_menu{
+	position: absolute;
+  	top: 450px;
+  	left: 695px;
+}
+.pic_menu span{
+	width: 30px;
+	height: 30px;
+	background: black;
+	color: white;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	border-radius:100%;
+	margin-right: 20px;
+}
+.pic_menu .active{
+	background:#fff;
+	color: black;
+
+}
+
+.btn{
+  	position: absolute;
+  	height: 76px;
+  	width: 42px;
+  	background: rgba(0,0,0,0.5);
+  	color:#fff;
+  	line-height: 76px;
+  	text-align: center;
+  	font-size:40px;
+  	top:200px;
+  	left: 40px;
+  	cursor: pointer;
+  	
+
+  }
+.btn_next{
+  	left: 1435px;
+}
+.banner{
+	width: 1520px;
+}
+.banner_content{
+	width: 960px;
+	height: 760px;
+	margin: 0 auto;
+	padding: 30px 10px 20px 10px;
+}
+
+.banner_pic{
+	width: 470px;
+	height: 350px;
+	float: left;
+	padding: 0 5px 20px 5px;
+    margin-bottom: 10px;
+	text-align: center;
+}
+.banner_pic:hover{
+	box-shadow: 0px 5px 5px #888888;
+}
+.banner_pic h3{
+	height: 20px;
+	padding: 6px 0 8px 0;
+}
+.banner_pix p{
+	height: 18px;
+	font-size: 16px;
+}
+
+.section{
+	width: 960px;
+	height: 404px;
+	margin: 0 auto;
+}
+.section h3{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.section_pic{
+	height: 344px;
+
+}
+
+.section_slide{
+	width: 230px;
+	height: 315px;
+	float: left;
+	padding: 0 5px;
+}
+.section_slide h3{
+	font-size: 12px;
+	line-height: 16px;
+	padding: 10px 5px 12px 5px;
+}
+
+.section p{
+	font-size: 14px
+	font-weight: bold;
+	padding: 5px 5px 17px 5px;
+}
+
+.section_btoon {
+	height: 4px;
+}
+.section_btoon span{
+	width: 20px;
+	height: 4px;
+	color: gray;
+	float: left;
+	padding:0 10px;
+}
+
+.footer{
+	width: 1520px;
+	height: 90px;
+	background: black;
+}
+
+.footer_center{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.footer_center ul li{
+	float: left;
+	line-height: 90px;
+	text-align: center;
+	color: #fff;
+	padding: 0 35px;
+}
